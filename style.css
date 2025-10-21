@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+@font-face {
+    font-family: Oswald;
+    src: url(./fonts/Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Oswald';
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.header_logo {
+    width: 100px;
+}
+
+.header_content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.header_navigate {
+    display: flex;
+    font-size: 20px;
+    gap: 12px;
+}
+
+.header_search {
+    position: relative;
+}
+
+.header_search img {
+    width: 25px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+
+.header_input {
+    background: lightgray;
+    border-radius: 8px;
+    height: 44px;
+    width: 320px;
+}
+#welcome{
+    margin-bottom: 700px ;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.welcome_inner {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+.welcome_left {
+    width: 60%;
+}
+.welcome_title {
+     text-transform: uppercase;
+     font-size: 80px;
+}
+.welcome_description {
+    font-size: 50px;
+}
+.welcome_right {
+    width: 40%;
+}
+
+.welcome_form { 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column  ;
+    background: #FF8C00;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.welcome_form_title {
+    text-align: center;
+}
+.welcome_form_tel {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.welcome_form_select {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.welcome_form_politic {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;    
+}
+
+.welcome_form_politic input{
+    width: 30px;
+    height: 30px;
+    accent-color: white;
+    cursor: pointer;
+}
+
+.welcome_form_btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer ;
+}
+
+.footer_container {
+    max-width: 1600px;
+    margin: 0 auto ;
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+.footer_inner img{
+    width: 120px;
+}
+
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
